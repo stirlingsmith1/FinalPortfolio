@@ -14,6 +14,7 @@
     "eslint-config-next": "13.4.15",
     "framer-motion": "^10.16.1",
     "next": "^13.4.15",
+    "nodemailer": "^6.9.14",
     "react": "^18.2.0",
     "react-animated-numbers": "^0.16.0",
     "react-dom": "^18.2.0",

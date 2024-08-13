@@ -8,38 +8,34 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-<li>React</li>
-<li>JavaScript</li>
-<li>MySQL</li>
-<li>MongoDB</li> 
-<li>HTML</li>
-<li>CSS</li>
-<li>Next.js</li>
-<li>Tailwind CSS</li>
-<li>Node.js</li>
-<li>Git</li>
-<li>Figma</li>
-<li>Adobe Illustrator</li>
-<li>Adobe Express</li>
-<li>Photoshop</li>
-<li>Monday.com Management</li>
-<li>Jira Project Management</li>
-<li>Logo Creation / Brand Identity</li>
-<li>Agile Development</li>
-<li>Shopify</li>
-<li>Wix</li>
-<li>AWS / Azure </li>
-<li>Test-Driven Development (TDD)</li>
-<li>RESTful API Design</li>
-<li>Distributed Systems</li>
-<li>Microservices</li>
-<li>Docker</li>
-<li>Domain-Driven Design</li>
-
-
-
-      </ul>
+      <ul className="list-disc pl-2 grid grid-cols-1 md:grid-cols-2 gap-x-8">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Next.js</li>
+      <li>Tailwind CSS</li>
+      <li>Node.js</li>
+      <li>RESTful API Design</li>
+      <li>MySQL</li>
+      <li>MongoDB</li>
+      <li>Distributed Systems</li>
+      <li>Microservices</li>
+      <li>Docker</li>
+      <li>AWS / Azure</li>
+      <li>Test-Driven Development (TDD)</li>
+      <li>Domain-Driven Design</li>
+      <li>Git</li>
+      <li>Agile Development</li>
+      <li>Monday.com Management</li>
+      <li>Jira Project Management</li>
+      <li>Figma</li>
+      <li>Adobe Illustrator</li>
+      <li>Adobe Express</li>
+      <li>Photoshop</li>
+      <li>Logo Creation / Brand Identity</li>
+      <li>Wix</li>
+    </ul>
     ),
   },
   {

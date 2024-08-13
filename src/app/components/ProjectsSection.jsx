@@ -7,8 +7,7 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Business Website",
-    description: "Project 1 description",
+    title: "Veteran Opportunities Business Website",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,49 +15,95 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Tech Certifcation Website",
+    image: "/images/projects/coitb.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://coitb.org/",
+  },
+  {
+    id: 2,
+    title: "Small Town Travel Design",
+    image: "/images/projects/hotel.png",
+    tag: ["All", "Figma Designs"],
+    gitUrl: "/",
+    previewUrl: "https://www.figma.com/design/0nO7NbsdHapq3NRdG6nwWs/small-town-travel?node-id=0-1&t=KUGXvPBpT8EN1C4e-1",
+  },
+  {
+    id: 3,
+    title: "Non-Profit Organization Application",
+    image: "/images/projects/SacredPlace.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    title: "Travel Center Landing Page Design",
+    image: "/images/projects/Travel.png",
+    tag: ["All", "Figma Designs"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/injgWctekEOgy529KlRweC/town-center-ideas?node-id=0-1&t=Sck4RrWcPdOC8nos-1",
   },
+  
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "Military Job Search Application",
+    image: "/images/projects/mmp.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://mymapplan.com/",
+  },
+  
+  {
+    id: 6,
+    title: "Learning Management System",
+    image: "/images/projects/tks.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://www.tks360.com/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    title: "Certifcation Site Figma Design",
+    image: "/images/projects/tksfigma.png",
+    tag: ["All", "Figma Designs"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://www.figma.com/design/e3tons6v6oujnoUfkBw4pR/COITB-REBUILD?node-id=0-1&t=lmRYN7seWgegTFFL-1",
   },
+  {
+    id: 6,
+    title: "Town Center Figma Design",
+    image: "/images/projects/nature.png",
+    tag: ["All", "Figma Designs"],
+    gitUrl: "/",
+    previewUrl: "https://www.figma.com/design/QXPzr3kICK9LMtfQBLQJvT/town-center-travel-idea-2?node-id=0-1&t=1ldm9i8X4MvXRC8K-1",
+  },
+  {
+    id: 6,
+    title: "Web App ReDesign",
+    image: "/images/projects/mmpfigma.png",
+    tag: ["All", "Figma Designs"],
+    gitUrl: "/",
+    previewUrl: "https://www.figma.com/design/CQfAuHdzW98447Pz1zHWIJ/MMP-Rebuild?node-id=0-1&t=lAcb1oC0fqKBIYr2-1",
+  },
+  {
+    id: 6,
+    title: "Fundraiser Thermometer",
+    image: "/images/projects/fundraiser.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/stirlingsmith1/donation-thermometer",
+    previewUrl: "",
+  },
+  {
+    id: 6,
+    title: "Project Portfolio",
+    image: "/images/projects/portfolio.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/stirlingsmith1/donation-thermometer",
+    previewUrl: "",
+  },
+  
 ];
 
 const ProjectsSection = () => {
@@ -97,7 +142,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name="Figma Designs"
           isSelected={tag === "Mobile"}
         />
       </div>

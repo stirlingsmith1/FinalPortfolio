@@ -46,7 +46,7 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <Link
-  href="/UpdatedResume2024.pdf"
+  href="/Resume2024.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-400 to-secondary-700 hover:bg-slate-800 text-white mt-3"
