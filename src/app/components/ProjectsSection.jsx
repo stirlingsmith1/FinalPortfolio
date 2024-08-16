@@ -93,7 +93,7 @@ const projectsData = [
     image: "/images/projects/fundraiser.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/stirlingsmith1/donation-thermometer",
-    previewUrl: "",
+    previewUrl: "https://github.com/stirlingsmith1/donation-thermometer",
   },
   {
     id: 6,

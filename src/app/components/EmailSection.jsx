@@ -17,7 +17,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    const endpoint = "/api/send"; // Correct API endpoint
 
     const options = {
       method: "POST",
@@ -36,7 +36,7 @@ const EmailSection = () => {
         setEmailSubmitted(true); // Show success message
       } else {
         console.error("Failed to send message:", resData);
-        alert("There was an issue sending your message. Please try again.");
+        alert(`There was an issue sending your message: ${resData.message}`);
       }
     } catch (error) {
       console.error("Error submitting form:", error);
