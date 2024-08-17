@@ -40,7 +40,7 @@ const projectsData = [
   {
     id: 3,
     title: "Travel Center Landing Page Design",
-    image: "/images/projects/Travel.png",
+    image: "/images/projects/travel.png",
     tag: ["All", "Figma Designs"],
     gitUrl: "/",
     previewUrl: "https://www.figma.com/design/injgWctekEOgy529KlRweC/town-center-ideas?node-id=0-1&t=Sck4RrWcPdOC8nos-1",
