@@ -8,6 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Veteran Opportunities Business Website",
+    description: "React Project",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,6 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Tech Certifcation Website",
+    description: "React Project",
     image: "/images/projects/coitb.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -24,6 +26,7 @@ const projectsData = [
   {
     id: 2,
     title: "Small Town Travel Design",
+    description: "Figma Mock Up",
     image: "/images/projects/hotel.png",
     tag: ["All", "Figma Designs"],
     gitUrl: "/",
@@ -32,14 +35,16 @@ const projectsData = [
   {
     id: 3,
     title: "Non-Profit Organization Application",
+    description: "React Project + SCSS",
     image: "/images/projects/SacredPlace.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "/images/projects/comingsoon.png",
   },
   {
     id: 3,
     title: "Travel Center Landing Page Design",
+    description: "Figma Mock Up",
     image: "/images/projects/travel.png",
     tag: ["All", "Figma Designs"],
     gitUrl: "/",
@@ -49,6 +54,7 @@ const projectsData = [
   {
     id: 4,
     title: "Military Job Search Application",
+    description: "React Project",
     image: "/images/projects/mmp.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -58,6 +64,7 @@ const projectsData = [
   {
     id: 6,
     title: "Learning Management System",
+    description: "React Project & MongoDB",
     image: "/images/projects/tks.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -66,6 +73,7 @@ const projectsData = [
   {
     id: 6,
     title: "Certifcation Site Figma Design",
+    description: "Figma Mock Up",
     image: "/images/projects/tksfigma.png",
     tag: ["All", "Figma Designs"],
     gitUrl: "/",
@@ -73,7 +81,17 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Payment Module",
+    description: "React Project",
+    image: "/images/projects/payment.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://coitb.org/credentials",
+  },
+  {
+    id: 6,
     title: "Town Center Figma Design",
+    description: "Figma Mock Up",
     image: "/images/projects/nature.png",
     tag: ["All", "Figma Designs"],
     gitUrl: "/",
@@ -82,6 +100,7 @@ const projectsData = [
   {
     id: 6,
     title: "Web App ReDesign",
+    description: "Figma Mock Up",
     image: "/images/projects/mmpfigma.png",
     tag: ["All", "Figma Designs"],
     gitUrl: "/",
@@ -89,7 +108,17 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Tech Academy Landing Page",
+    description: "React Project",
+    image: "/images/projects/academy.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://www.erasolutions.us/era-academy2",
+  },
+  {
+    id: 6,
     title: "Fundraiser Thermometer",
+    description: "Plain HTML + CSS, MeteorJS Project",
     image: "/images/projects/fundraiser.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/stirlingsmith1/donation-thermometer",
@@ -98,6 +127,7 @@ const projectsData = [
   {
     id: 6,
     title: "Project Portfolio",
+    description: "Next.Js & Tailwind",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/stirlingsmith1/donation-thermometer",

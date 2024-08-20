@@ -15,17 +15,21 @@ const TAB_DATA = [
       <li>React</li>
       <li>Next.js</li>
       <li>Tailwind CSS</li>
+      <li>Redux</li>
+      <li>scss</li>
       <li>Node.js</li>
       <li>RESTful API Design</li>
       <li>MySQL</li>
       <li>MongoDB</li>
       <li>Distributed Systems</li>
       <li>Microservices</li>
+      <li>Node</li>
       <li>Docker</li>
       <li>AWS / Azure</li>
       <li>Test-Driven Development (TDD)</li>
       <li>Domain-Driven Design</li>
       <li>Git</li>
+      <li>Git Hub</li>
       <li>Agile Development</li>
       <li>Monday.com Management</li>
       <li>Jira Project Management</li>
