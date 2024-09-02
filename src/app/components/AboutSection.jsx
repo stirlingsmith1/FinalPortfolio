@@ -9,14 +9,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-1 md:grid-cols-2 gap-x-8">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript(ES6+)</li>
+      <li>React.js</li>
       <li>Next.js</li>
       <li>Tailwind CSS</li>
+      <li>bootstrap</li>
       <li>Redux</li>
-      <li>scss</li>
+      <li>sass/SCSS</li>
       <li>Node.js</li>
       <li>RESTful API Design</li>
       <li>MySQL</li>

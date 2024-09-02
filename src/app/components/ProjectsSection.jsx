@@ -126,12 +126,21 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Project Portfolio",
+    title: "Portfolio Website",
     description: "Next.Js & Tailwind",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/stirlingsmith1/donation-thermometer",
     previewUrl: "",
+  },
+  {
+    id: 6,
+    title: "Mini Project",
+    description: "HTML + CSS + Javascript",
+    image: "/images/projects/cards.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/stirlingsmith1/expanding-cards",
+    previewUrl: "https://stirlingsmith1.github.io/expanding-cards/",
   },
   
 ];
