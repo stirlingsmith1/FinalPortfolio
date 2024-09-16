@@ -16,12 +16,21 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Tech Certifcation Website",
-    description: "React Project",
-    image: "/images/projects/coitb.png",
+    title: "Weather App",
+    description: "A dynamic React app that fetches and displays real-time weather data.",
+    image: "/images/projects/weather.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://coitb.org/",
+    gitUrl: "https://github.com/stirlingsmith1/weather-app",
+    previewUrl: "https://stirlingsmith1.github.io/weather-app/",
+  },
+  {
+    id: 2,
+    title: "Advanced Search App",
+    description: "An interactive React search feature with client-side and server-side filtering.",
+    image: "/images/projects/search.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/stirlingsmith1/advanced-search-app",
+    previewUrl: "https://stirlingsmith1.github.io/advanced-search-app/",
   },
   {
     id: 2,
@@ -40,6 +49,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/images/projects/comingsoon.png",
+  },
+  {
+    id: 6,
+    title: "Learning Management System Design",
+    description: "LMS Design Created In Figma",
+    image: "/images/projects/tks.png",
+    tag: ["All", "Figma Designs"],
+    gitUrl: "/",
+    previewUrl: "https://www.figma.com/design/rZlRhLlLKIJOUC8dq5qr14/Education-Template-Version-1-(TKS360)?node-id=0-1&t=erOu4ThBwRPBncjF-1",
   },
   {
     id: 3,
@@ -61,15 +79,8 @@ const projectsData = [
     previewUrl: "https://mymapplan.com/",
   },
   
-  {
-    id: 6,
-    title: "Learning Management System",
-    description: "React Project & MongoDB",
-    image: "/images/projects/tks.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://www.tks360.com/",
-  },
+  
+  
   {
     id: 6,
     title: "Certifcation Site Figma Design",

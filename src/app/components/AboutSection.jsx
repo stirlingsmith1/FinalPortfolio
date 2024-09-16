@@ -17,6 +17,7 @@ const TAB_DATA = [
       <li>Tailwind CSS</li>
       <li>bootstrap</li>
       <li>Redux</li>
+      <li>Express.js</li>
       <li>sass/SCSS</li>
       <li>Node.js</li>
       <li>RESTful API Design</li>
@@ -25,7 +26,7 @@ const TAB_DATA = [
       <li>Distributed Systems</li>
       <li>Microservices</li>
       <li>Node</li>
-      <li>Docker</li>
+      <li>Error Handling</li>
       <li>AWS / Azure</li>
       <li>Test-Driven Development (TDD)</li>
       <li>Domain-Driven Design</li>
@@ -93,7 +94,13 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+      <Image 
+  src="/images/about-image.png" 
+  width={500} 
+  height={500} 
+  style={{ borderRadius: '10px' }} 
+/>
+
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
